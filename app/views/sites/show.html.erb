@@ -1,0 +1,22 @@
+<p id="notice"><%= notice %></p>
+<%= link_to 'Back', sites_path %>
+<p>
+  <strong>Url:</strong>
+  <%= @site.url %>
+</p>
+<p>
+  <strong>Has my name? (Chris)</strong>
+  <%= @site.include_word? 'chris' %>
+</p>
+<p>
+  <strong>Using Bootstrap?</strong>
+  <%= @site.include_word? 'bootstrap' %>
+</p>
+<p>
+  <strong>Email Addresses</strong>
+  <%= @site.emails %>
+</p>
+<p>
+  <strong>Body</strong>
+  <%= @site.body %>
+</p>
