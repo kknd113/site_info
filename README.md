@@ -1,5 +1,6 @@
 # README
 ### Deployed to https://salty-tor-71342.herokuapp.com
+#### Run specs with `rspec`
 
 #### Simple Rails App to display informations about a website given a valid URL.
 ##### Currently, it displays following informations about the given site
