@@ -3,6 +3,7 @@
 
 Simple Rails App to display informations about a website given a valid URL.
 Currently, it displays following informations about the given site
+
 1. url
 2. Does the body include my name? (Chris)
 3. Does the website ust bootstrap?
