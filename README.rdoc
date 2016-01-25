@@ -1,28 +1,22 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple Rails App to display informations about a website given a valid URL.
+Currently, it displays following informations about the given site
+1. url
+2. Does the body include my name? (Chris)
+3. Does the website ust bootstrap?
+4. What email addresses, if any, does the body contain?
+5. Can I fetch this url?
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Deployed @ https://salty-tor-71342.herokuapp.com/
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Things that I would have done with more time:
+
+* Better robots.txt parsing. Currently, it is very naive; Currently:
+  * It just assumes that the path is allowed unless it's explicitly disallowed.
+  * It does not take "User-Agent" into consideration
+  
+* Better UI?
+
+* Integrate Sidekiq background job to process batch data?
