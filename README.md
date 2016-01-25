@@ -1,8 +1,8 @@
 # README
 ### Deployed to https://salty-tor-71342.herokuapp.com
 
-Simple Rails App to display informations about a website given a valid URL.
-Currently, it displays following informations about the given site
+#### Simple Rails App to display informations about a website given a valid URL.
+##### Currently, it displays following informations about the given site
 
 1. url
 2. Does the body include my name? (Chris)
@@ -12,7 +12,7 @@ Currently, it displays following informations about the given site
 
 
 
-Things that I would have done with more time:
+##### Things that I would have done with more time:
 
 * Better robots.txt parsing. Currently, it is very naive; Currently:
   * It just assumes that the path is allowed unless it's explicitly disallowed.
