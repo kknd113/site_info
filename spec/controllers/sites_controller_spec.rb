@@ -3,8 +3,8 @@ require 'rails_helper'
 
 RSpec.describe SitesController do
   let! (:dotandbo) { FactoryGirl.create(:site, url: 'http://www.dotandbo.com') }
-  let! (:twitter) { FactoryGirl.build(:site, url: 'http://www.twitter.com') }
-  let! (:beatmygoal) { FactoryGirl.build(:site, url: 'http://www.beatmygoal.com') }
+  let (:twitter) { FactoryGirl.create(:site, url: 'http://www.twitter.com') }
+  let (:beatmygoal) { FactoryGirl.create(:site, url: 'http://www.beatmygoal.com') }
   
   context "#show" do
     it "should raise 404 for /sites/unknown_site/" do
